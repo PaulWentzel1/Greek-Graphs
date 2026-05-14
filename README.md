@@ -47,7 +47,7 @@ make build
 # or manually:
 python setup.py build_ext --inplace
 ```
-This will compile lib.c and wrapper.pyx into a shared library (`wrapper.*.so`). At this point you can use this library in your Python projects as an import like how you would with NumPy or Pandas:
+This will compile `lib.c` and `wrapper.pyx` into a shared library (`wrapper.*.so`). At this point you can use this library in your Python projects as an import like how you would with NumPy or Pandas:
 
 ```py
 import wrapper
